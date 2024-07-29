@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  yt-dlp:
+    build: .
+    volumes:
+      - ~/Desktop/yt:/app/download
+    stdin_open: true
+    tty: true
